@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareLog | Sistem Informasi Posyandu</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <!-- logo -->
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Logo CareLog">
+                <span> CareLog </span>
+            </a>
+            <!-- navigasi -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#fitur">Fitur</a>
+                <a href="#cara-kerja">Cara Kerja</a>
+                <a href="#" class="mobile-login">Masuk</a>
+            </nav>
+
+            <!-- hamburger menu -->
+            <div class="nav-actions">
+                <a href="#" class="btn btn-outline dekstop-login">Masuk</a>
+                <button class="menu-toggle" id="menuToggle" type="button"> ☰ </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>
+                    Kelola Posyandu Lebih Mudah,
+                    <span>Terhubung dalam Satu Sistem.</span>
+                </h1>
+
+                <p>
+                    CareLog membantu warga, kader Posyandu, dan Puskesmas
+                    mengelola informasi kesehatan secara lebih mudah,
+                    terstruktur, dan terintegrasi.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#fitur" class="btn btn-primary">
+                        Mulai Sekarang
+                    </a>
+
+                    <a href="#tentang" class="btn btn-secondary">
+                        Pelajari CareLog
+                    </a>
+                </div>
+            </div>
+
+            <!-- MOCKUP -->
+            <div class="hero-image">
+                <img src="img/mockup.png" alt="Tampilan CareLog">
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="about" id="tentang">
+        <div class="container">
+            <div class="section-title">
+                <h2> Informasi Posyandu dalam Satu Tempat </h2>
+                <p>
+                    CareLog dirancang untuk membantu proses pencatatan,
+                    pemantauan, dan pengelolaan informasi kesehatan
+                    Posyandu secara lebih praktis.
+                </p>
+            </div>
+
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="number">01</div>
+                    <h3>Data Tersebar</h3>
+                    <p>
+                        Informasi kesehatan lebih mudah dikelola
+                        ketika tersimpan secara terpusat.
+                    </p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="number">02</div>
+                    <h3>Risiko Salah Input</h3>
+                    <p>
+                        Validasi membantu mengurangi kesalahan
+                        dalam proses pencatatan data.
+                    </p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="number">03</div>
+                    <h3>Rekap Lebih Mudah</h3>
+                    <p>
+                        Data yang terstruktur membantu proses
+                        pemantauan dan rekapitulasi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENGGUNA -->
+    <section class="roles">
+        <div class="container">
+            <div class="section-title">
+                <h2>
+                    Satu Sistem untuk
+                    Berbagai Kebutuhan
+                </h2>
+            </div>
+
+            <div class="role-grid">
+                <div class="role-card">
+                    <img src="img/warga.jpg" alt="Foto Warga">
+                    <h3>Warga</h3>
+                    <p>
+                        Memantau informasi kesehatan,
+                        riwayat, jadwal Posyandu,
+                        dan pengingat.
+                    </p>
+                </div>
+
+                <div class="role-card">
+                    <img src="img/kader.jpg" alt="Kader">
+                    <h3>Kader</h3>
+                    <p>
+                        Membantu pencatatan pemeriksaan
+                        dan pengelolaan data warga
+                        secara lebih terstruktur.
+                    </p>
+                </div>
+
+                <div class="role-card">
+                    <img src="img/puskesmas.jpg" alt="Puskesmas">
+                    <h3>Puskesmas</h3>
+                    <p>
+                        Melihat rekap dan informasi
+                        kesehatan untuk mendukung
+                        pemantauan Posyandu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FITUR -->
+    <section class="features" id="fitur">
+        <div class="container">
+            <div class="section-title">
+                <h2>
+                    Semua yang Dibutuhkan
+                    dalam CareLog
+                </h2>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Ringkasan Kesehatan</h3>
+                    <p>
+                        Melihat informasi kesehatan secara
+                        ringkas dan mudah dipahami.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Riwayat Kesehatan</h3>
+                    <p>
+                        Menyimpan dan melihat perkembangan
+                        data kesehatan dari waktu ke waktu.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Jadwal Posyandu</h3>
+                    <p>
+                        Mengetahui jadwal kegiatan Posyandu
+                        dengan lebih mudah.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Pencatatan Pemeriksaan</h3>
+                    <p>
+                        Membantu kader mencatat hasil
+                        pemeriksaan warga.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Pengingat</h3>
+                    <p>
+                        Membantu pengguna mengingat jadwal
+                        dan informasi penting.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Rekap Puskesmas</h3>
+                    <p>
+                        Mendukung proses rekap dan pemantauan
+                        informasi Posyandu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREVIEW -->
+    <section class="preview">
+        <div class="container">
+            <div class="section-title">
+                <h2>
+                    Kenali Tampilan CareLog
+                </h2>
+
+                <p>
+                    Tampilan dirancang sederhana agar mudah
+                    digunakan oleh berbagai kelompok pengguna.
+                </p>
+
+            </div>
+
+            <div class="mockup-grid">
+                <div class="mockup-card">
+                    <img src="img/beranda.png" alt="Tampilan Beranda CareLog">
+                    <h3>Beranda</h3>
+                </div>
+
+                <div class="mockup-card">
+                    <img src="img/kms.png" alt="Tampilan Riwayat CareLog">
+                    <h3>Riwayat Kesehatan</h3>
+                </div>
+                <div class="mockup-card">
+                    <img src="img/jadwal.png" alt="Tampilan Jadwal CareLog">
+                    <h3>Jadwal Posyandu</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARA KERJA -->
+    <section class="steps" id="cara-kerja">
+        <div class="container">
+            <div class="section-title">
+                <h2>
+                    Mulai Menggunakan CareLog
+                </h2>
+            </div>
+
+            <div class="step-grid">
+                <div class="step">
+                    <span>1</span>
+                    <h3>Daftar</h3>
+                    <p>Buat akun CareLog.</p>
+                </div>
+
+                <div class="step">
+                    <span>2</span>
+                    <h3>Lengkapi Profil</h3>
+                    <p>Masukkan informasi pengguna.</p>
+                </div>
+
+                <div class="step">
+                    <span>3</span>
+                    <h3>Gunakan Layanan</h3>
+                    <p>Akses fitur sesuai kebutuhan.</p>
+                </div>
+
+                <div class="step">
+                    <span>4</span>
+                    <h3>Pantau Informasi</h3>
+                    <p>Lihat informasi kesehatan dengan mudah.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>
+                Mari Buat Layanan Posyandu
+                Lebih Mudah.
+            </h2>
+            <p>
+                CareLog membantu menghubungkan warga,
+                kader, dan Puskesmas dalam satu sistem.
+            </p>
+            <a href="#" class="btn btn-white">
+                Mulai Sekarang
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">
+                    <img src="img/logo.png" alt="Logo CareLog">
+                    <span>CareLog</span>
+                </a>
+                <p>
+                    Sistem Informasi Posyandu Terpadu untuk membantu
+                    warga, kader, dan Puskesmas mengelola informasi
+                    kesehatan dengan lebih mudah.
+                </p>
+            </div>
+
+            <!-- PRODUK -->
+            <div class="footer-column">
+                <h3>Produk</h3>
+                <a href="#fitur">Fitur</a>
+                <a href="#cara-kerja">Cara Kerja</a>
+                <a href="#preview">Preview</a>
+            </div>
+
+            <!-- TENTANG -->
+            <div class="footer-column">
+                <h3>Tentang</h3>
+                <a href="#tentang">Tentang CareLog</a>
+                <a href="#pengguna">Pengguna</a>
+                <a href="#">Kontak</a>
+            </div>
+
+            <!-- BANTUAN -->
+            <div class="footer-column">
+                <h3>Bantuan</h3>
+                <a href="#">Pusat Bantuan</a>
+                <a href="#">FAQ</a>
+                <a href="#">Hubungi Kami</a>
+            </div>
+
+            <!-- LEGAL -->
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Keamanan Data</a>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="container footer-bottom">
+            <p>
+                © 2026 CareLog. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const navMenu = document.getElementById("navMenu");
+        const navLinks = navMenu.querySelectorAll("a");
+
+        // Buka / tutup menu ketika tombol garis 3 diklik
+        menuToggle.addEventListener("click", function () {
+            navMenu.classList.toggle("active");
+        });
+
+        // Tutup menu setelah salah satu link diklik
+        navLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                navMenu.classList.remove("active");
+            });
+        });
+    </script>
+</body>
+</html>
